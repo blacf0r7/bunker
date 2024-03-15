@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button {
+    background: none;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.navi-link:hover {
+    border-bottom: 1px solid whitesmoke;
+}
+.navi-btn:hover{
+    border-bottom: 1px solid whitesmoke;
+}

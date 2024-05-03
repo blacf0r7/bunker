@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    align-items: center;
+}
+
+.navi {
+    display: flex;
+    gap: 20px;
+    padding-left: 680px;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#title {
+    color: whitesmoke;
+    font-size: 80px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navi-link:hover {
+    border-bottom: 1px solid whitesmoke;
+}
+
+.navi-btn:hover {
+    border-bottom: 1px solid whitesmoke;
+}

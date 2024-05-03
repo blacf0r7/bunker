@@ -36,7 +36,7 @@ btnGenerate.addEventListener("click", () => {
         personItemMass[3].innerText = 'Стаж работы:' + ageFormat(age);
     }
     if (random(0, 1) == 1) {
-        personItemMass[4].innerText = 'Здоров';
+        personItemMass[4].innerText = 'Здоровье отличное';
     } else {
         personItemMass[4].innerText = 'Заболевание:' + diseas[random(0, diseas.length)];
     }

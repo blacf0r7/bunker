@@ -2,4 +2,16 @@ body {
     background-image: url("../images/ok050411_o-508aea8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
+.main {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

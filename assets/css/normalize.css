@@ -11,12 +11,14 @@
 .navi {
     display: flex;
     gap: 20px;
-    padding-left: 680px;
 
 }
 
 a {
-    color: inherit;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
     text-decoration: none;
     color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -25,14 +27,18 @@ a {
 #title {
     color: whitesmoke;
     font-size: 80px;
-
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
     border-radius: 10px;
     transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.371);
 }
 
-button {
+#navi-button {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: none;
     border: none;
     outline: none;
@@ -46,4 +52,19 @@ button {
 
 .navi-btn:hover {
     border-bottom: 1px solid whitesmoke;
+}
+ol , ul {
+    list-style: none;
+}
+
+.person {
+    max-width: 80%;
+}
+.audio-block{
+    position: relative;
+    z-index: 20;
+}
+.music{
+    width: 30px;
+    height: 30px;
 }
